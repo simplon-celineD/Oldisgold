@@ -1,0 +1,302 @@
+*{
+  margin:0;
+  padding:0;
+}
+//les margins et les paddings ne sont pas ajoutés aux tailles définies pour les divs
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: Geneva, Arial, sans-serif;
+  background-image: url(wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1950px;
+}
+header{
+  background-color: #f2cb1f;
+  height: 240px;
+  width:1200px;
+  margin:auto;
+  margin-top: 40px;
+}
+header img{
+  height: 140px;
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 30px;
+  width: 180px;
+}
+#accroche{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+}
+#nom{
+  font-size: 100px;
+  font-weight: bolder;
+  margin-left: 100px;
+  display: inline-block;
+  text-shadow: 8px 8px 6px black;
+}
+#boutonGauche{
+  background-color: #f2cb1f;
+  width: 40px;
+  height: 50px;
+  margin-top: 140px;
+  font-size: 40px;
+  padding-left: 20px;
+  display: inline-block;
+}
+#boutonDroit{
+  background-color: #f2cb1f;
+  width: 40px;
+  height: 50px;
+  margin-top: 140px;
+  float: right;
+  font-size: 40px;
+  padding-left: 20px;
+  display: inline-block;
+
+}
+.texte{
+  margin-top: 300px;
+  display: inline;
+}
+h3{
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+background-color: #f2cb1f;
+}
+#images{
+  clear: right;
+  width: 1200px;
+  height: 400px;
+  background-image: url(informatique.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+#services{
+  width: 1200px;
+  height: 400px;
+  background-color: #1A1A1A;
+  /*padding-top: 50px;*/
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+}
+p{
+  color: white;
+  background-color: #f2cb1f;
+  /*margin-top: 10px;*/
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+footer img{
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+#texte{
+  color: #7E7E7E;
+  padding-top: 300px;
+  height: 40px;
+}
+h1{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  color: #7E7E7E;
+  padding-left: 180px;
+  font-size: 18px;
+  background-color: #f2cb1f;
+}
+#section{
+  padding-top: 30px;
+}
+
+/*img{
+  height: 250px;
+  width: 180px;
+  margin-left: 90px;
+  margin-top: 30px;
+}*/
+#deux{
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+#trois{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.bloc{
+  background-color: white;
+  width: 300px;
+  height: 150px;
+}
+.bloc img{
+  height: 100px;
+  margin-top: 15px;
+  width: 180px;
+  margin-left: 60px;
+}
+
+
+#formulaire{
+  /*background-color: #0B0B0B;*/
+  height: 100px;
+  width:1200px;
+  margin:auto;
+  margin-top: 40px;
+  height: 400px;
+  background-color: #1A1A1A;
+  margin-left: 40px;
+  display: inline-block;
+}
+footer{
+  margin-top: 60px;
+  background-color: #1A1A1A;
+  height: 200px;
+  width: 1200px;
+  margin-left: 40px;
+}
+#fb{
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+#twitter{
+  display: inline-block;
+  padding-left: 30px;
+}
+#fHaut{
+  background-color: #0B0B0B;
+  height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: #f2cb1f;
+  font-size: 12px;
+}
+#fHaut:hover{
+  background-color: #f2cb1f;
+  color: #0B0B0B;
+}
+input {
+display:block;
+}
+ #fldmessage {
+margin-top: 20px;
+height:100px;
+width: 500px;
+margin-left: 20px;
+}
+button {
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+height: 20px;
+width: 80px;
+}
+#mail{
+  padding-left: 80px;
+  color: #f2cb1f;
+}
+#contact{
+  display: inline-block;
+}
+#entreprise{
+  display: inline-block;
+}
+#partenaires{
+  display: inline-block;
+  margin-left: 80px;
+}
+#logoPetit img{
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#pole_emploi{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding-left: 60px;
+}
+#pole_emploi img{
+  width: 70px;
+  height: 70px;
+  padding-top: 5px;
+}
+#region{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  padding-left: 10px;
+  /*padding-top: 10px;*/
+}
+#region img{
+  width: 50px;
+  height: 50px;
+}
+h4{
+text-align: center;
+color: #f2cb1f;
+margin-left: 50px;
+}
+#name{
+  display: inline-block;
+  color: #f2cb1f;
+  margin-left: 30px;
+  font-size: 40px;
+  font-family: 'DejaVu Sans Condensed Bold', sans-serif;
+}
+#userForm{
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 45px;
+  background-color: #f2cb1f;
+}
+legend{
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+#fldsecteur{
+  display: inline-block;
+  height: 20px;
+}
+#fldnom{
+  display: inline-block;
+  height: 20px;
+}
+#fldmail{
+  display: inline-block;
+  height: 20px;
+}
+#fldprenom{
+  display: inline-block;
+  height: 20px;
+}
+label{
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+}
